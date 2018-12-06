@@ -1,0 +1,9 @@
+lula_dexter:
+ image: httpd
+ volumes:
+  - /srv/lula/:/usr/local/apache2/htdocs
+
+bolsonaro_dexter:
+ image: httpd
+ volumes:
+  - /srv/bolsonaro:/usr/local/apache2/htdocs
